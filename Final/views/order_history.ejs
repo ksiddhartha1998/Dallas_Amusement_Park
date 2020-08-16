@@ -1,0 +1,19 @@
+<% include partials/header %>
+    <div class="container cart-container ">
+        <% if(orders.length > 0) { %>
+            <% orders.forEach(function(order, index) { %>
+                <div class="card mb-3" style="max-width: 740px;">
+                    <div class="row no-gutters">
+                        <div class="col-md-8">
+                        <div class="card-body">
+                            <h4 class="card-title">#<%=index + 1%>  Order Id: <%= order._id%></h4>
+                            <p class="card-text">Order Cart Details: <%= order.cart_list%></p>
+                            <p class="card-text">Total Price: $<%= order.total_price%></p>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            <%}); %>
+        <% } %>
+    </div>
+<% include partials/footer %>

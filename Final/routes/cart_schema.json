@@ -1,0 +1,8 @@
+{
+    "_id" : ObjectId("5de75b8c87d4b33c1a88908c"),
+    "item_id" : ObjectId("5de6ed3187d4b33c1a885ac9"),
+    "user_id" : ObjectId("5ddf471c8cc3773032a58eea"),
+    "__v" : 0,
+    "is_deleted" : true,
+    "quantity" : 2
+}

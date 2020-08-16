@@ -1,0 +1,260 @@
+{
+        "_id" : ObjectId("5eb4740e0a72fe06cd12b4b1"),
+        "image" : "https://res.cloudinary.com/simplotel/image/upload/x_0,y_183,w_2000,h_1126,r_0,c_crop,q_60,fl_progressive/w_550,f_auto,c_fit/hyd
+erabad-park/MI_rk7yus",
+        "title" : "Mission Interstellar",
+        "description" : "Mission Interstellar has been developed in collaboration with leading US and European theme park design companies and the
+ installation & integration is managed by our amazing engineering team.\r\n\r\nAs you train mind and body for the uncertainties of outer space, th
+is quick guide will take you through what’s what. Your navigation screen measures 22 X 15 m and will give you a clear field of vision ahead with a
+ll the relevant information displayed alongside. You will be immersed in a capsule 3500 sq. ft. in an area which will account for unprecedented fo
+rces and will counter them to keep your journey as smooth as possible. Laser projection makes possible for your display to bear a resolution of 4K
+ giving you enhanced clarity with each minute detail out there for you to make calculated decisions.",
+        "ridetype" : "Land",
+        "is_deleted" : false,
+        "price" : {
+                "value" : 10,
+                "currency" : "USD"
+        },
+        "__v" : 0
+}
+{
+        "_id" : ObjectId("5eb4744e0a72fe06cd12b4b2"),
+        "image" : "https://res.cloudinary.com/simplotel/image/upload/x_0,y_88,w_1680,h_944,r_0,c_crop,q_60,fl_progressive/w_960,f_auto,c_fit/hyder
+abad-park/_60A0644_bg15vw",
+        "title" : "Sky Wheel",
+        "description" : "Firmly straddling a 443 meters tall building, the Ferris wheel at Wonderla Hyderabad park with a diameter of 30 meters gi
+ves riders a bird’s eye view of the park and its surroundings and the city beyond, as it slowly turns on its axis. This Sky Wheel is the 2nd talle
+st Ferris wheel in India. Its spacious lifts carry visitors to the top of the tower, to give them a feeling of being on the top of the world. From
+ the great height of 80 meters, riders can experience the mesmerizing view of the city. Sky Wheel has become a landmark in Hyderabad that can be s
+een from miles around.",
+        "ridetype" : "Land",
+        "is_deleted" : false,
+        "price" : {
+                "value" : 10,
+                "currency" : "USD"
+        },
+        "__v" : 0
+}
+{
+        "_id" : ObjectId("5eb474820a72fe06cd12b4b3"),
+        "image" : "https://res.cloudinary.com/simplotel/image/upload/w_5000,h_3333/x_0,y_260,w_5000,h_2813,r_0,c_crop,q_60,fl_progressive/w_960,f_
+auto,c_fit/hyderabad-park/ADVENTURES_OF_CHIKKU_1_zgmyqe",
+        "title" : "Adventures of Chikku",
+        "description" : "Experience the Adventures of Chikku, a state-of-the-art ride that combines a 3D film with physical and environmental effe
+cts, in an air-conditioned theatre. Experience the crazy ride with Chikku as he sets out on adventures at Wonderla Hyderabad Park - Top-rated amus
+ement Park in Hyderabad. Stay prepared to experience movement under your feet, splashes of water, gusts of wind and movie magic like never before.
+ The 3D goggles will introduce the spectators to a new, larger-than-life world. ",
+        "ridetype" : "Land",
+        "is_deleted" : false,
+        "price" : {
+                "value" : 10,
+                "currency" : "USD"
+        },
+        "__v" : 0
+}
+{
+        "_id" : ObjectId("5eb474ba0a72fe06cd12b4b4"),
+        "image" : "https://res.cloudinary.com/simplotel/image/upload/w_5000,h_3333/x_0,y_260,w_5000,h_2813,r_0,c_crop,q_60,fl_progressive/w_960,f_
+auto,c_fit/hyderabad-park/Twist_and_Shout_qakyqz",
+        "title" : "Twist and Shout",
+        "description" : "This is a highly enjoyable kids ride in Hyderabad for young children where after the riders are seated, the ride takes th
+em spinning like a top continuously changing the angle of its pivot. With twists and turns like that, your kid is bound to shout out for more fun.
+ ",
+        "ridetype" : "Land",
+        "is_deleted" : false,
+        "price" : {
+                "value" : 10,
+                "currency" : "USD"
+        },
+        "__v" : 0
+}
+{
+        "_id" : ObjectId("5eb475030a72fe06cd12b4b5"),
+        "image" : "https://res.cloudinary.com/simplotel/image/upload/x_0,y_63,w_1200,h_674,r_0,c_crop,q_60,fl_progressive/w_960,f_auto,c_fit/hyder
+abad-park/WBD4set2-12.3.16-7235_hb8o3c",
+        "title" : "Rain Disco",
+        "description" : "As the name suggests, rain disco is all about getting wet 'n' absolutely wild. It is a specially created indoor dance flo
+or that gives you a multi-sensorial experience, with 10,000 watts of heart stopping hi-fidelity sound, Psychedelic laser lights, and perfectly cho
+reographed showers of warm water that soak you in absolute dance-bliss! This attraction features an 'intelligent rain system' that moves to music
+- the only one of its kind in India. Head over right now for some unmatched family fun in Hyderabad!",
+        "ridetype" : "Water",
+        "is_deleted" : false,
+        "price" : {
+                "value" : 10,
+                "currency" : "USD"
+        },
+        "__v" : 0
+}
+{
+        "_id" : ObjectId("5eb475510a72fe06cd12b4b6"),
+        "image" : "https://res.cloudinary.com/simplotel/image/upload/x_0,y_63,w_1200,h_674,r_0,c_crop,q_60,fl_progressive/w_960,f_auto,c_fit/hyder
+abad-park/Boomerang_4_pirsit",
+        "title" : "Boomerang",
+        "description" : "Boomerang is a thrilling ride at our Hyderabad water park that will test rider's nerves. The float moves into a closed tu
+nnel and then suddenly drops from a height into a large boomerang shaped water slide resulting in a repeated to and fro motion.",
+        "ridetype" : "Water",
+        "is_deleted" : false,
+        "price" : {
+                "value" : 10,
+                "currency" : "USD"
+        },
+        "__v" : 0
+}
+{
+        "_id" : ObjectId("5eb4757c0a72fe06cd12b4b7"),
+        "image" : "https://res.cloudinary.com/simplotel/image/upload/x_0,y_64,w_1217,h_684,r_0,c_crop,q_60,fl_progressive/w_960,f_auto,c_fit/hyder
+abad-park/335A6720_-_Copy_mkq1qr",
+        "title" : "Pirate Lagoon",
+        "description" : "Start your new adventure with a splash at Pirate Lagoon. Swim and slide with the pirates as they drench you with bucket-l
+oad of surprises. Equipped with tilting buckets, water guns, small slides, stairs and sprinkling water, Pirate Lagoon is equally fun for adults an
+d little ones.",
+        "ridetype" : "Water",
+        "is_deleted" : false,
+        "price" : {
+                "value" : 10,
+                "currency" : "USD"
+        },
+        "__v" : 0
+}
+{
+        "_id" : ObjectId("5eb475fa1efe200b1aa18f0b"),
+        "image" : "https://res.cloudinary.com/simplotel/image/upload/x_0,y_63,w_1200,h_674,r_0,c_crop,q_60,fl_progressive/w_960,f_auto,c_fit/hyder
+abad-park/WBD4set2-12.3.16-6843_bpn5np",
+        "title" : "Fun Racer",
+        "description" : "Fun Racer is a ride with water slides where you slither down lying prostrate on rubber mats. The downward slide is inters
+paced with level portions for a wonderful experience. This ride at our water park in Hyderabad is suitable for people of all ages.",
+        "ridetype" : "Water",
+        "is_deleted" : false,
+        "price" : {
+                "value" : 10,
+                "currency" : "USD"
+        },
+        "__v" : 0
+}
+{
+        "_id" : ObjectId("5eb476e91efe200b1aa18f0f"),
+        "image" : "https://res.cloudinary.com/simplotel/image/upload/w_5000,h_3333/x_0,y_260,w_5000,h_2813,r_0,c_crop,q_60,fl_progressive/w_960,f_
+auto,c_fit/hyderabad-park/Recoil_2_ymolvn",
+        "title" : "Recoil",
+        "description" : "Wonderla introduces India’s first ever reverse looping Roller Coaster - RECOIL. which will give a whole new experience of
+ thrill. This high tech roller coaster is imported from the Netherlands, and has two track ramps that go up to 40 meters. The train climbs one ram
+p and  accelerates to 80 kmph in 1 second, before encountering a ‘cobra roll’ and a ‘loop’ in the tracks, climbing the second ramp, again to a 40m
+ height, and then doing it all over all again, only this time, it is Backwards!",
+        "ridetype" : "Thrill",
+        "is_deleted" : false,
+        "price" : {
+                "value" : 10,
+                "currency" : "USD"
+        },
+        "__v" : 0
+}
+{
+        "_id" : ObjectId("5eb477131efe200b1aa18f10"),
+        "image" : "https://res.cloudinary.com/simplotel/image/upload/x_0,y_63,w_1200,h_674,r_0,c_crop,q_60,fl_progressive/w_960,f_auto,c_fit/hyder
+abad-park/WBD5-13.3.16-7616_zmitmk",
+        "title" : "Maverick",
+        "description" : "Maverick, like the name suggests, is a ride that doesn’t go by the rules. It turns. It twists. It tilts. It swivels. Defy
+ the rules of motion and momentum on this 21-seater raft hinged to an independently acting vertical column at either end. When you are on it you’l
+l scream for it to stop, but after you are done with it, you’ll want to do it again. Safety harnesses hold you securely in place while the machine
+ goes through its unpredictable cycle.\r\nRecommended age: 12 years and above. Not recommended for heart patients or people suffering from high BP
+.   ",
+        "ridetype" : "Thrill",
+        "is_deleted" : false,
+        "price" : {
+                "value" : 10,
+                "currency" : "USD"
+        },
+        "__v" : 0
+}
+{
+        "_id" : ObjectId("5eb477411efe200b1aa18f11"),
+        "image" : "https://res.cloudinary.com/simplotel/image/upload/x_153,y_123,w_997,h_560,r_0,c_crop,q_60,fl_progressive/w_960,f_auto,c_fit/hyd
+erabad-park/WBD5-13.3.16-7443_cptrci",
+        "title" : "Equinox",
+        "description" : "Riders on this ultimate thrill ride sit in outward-facing suspended seats of 5.5 meter diameter that can seat a maximum o
+f 25 adult riders. The suspended seats mean that the riders’ legs dangle freely, and each seat has an individual shoulder harness with a lock sens
+or. The ring is suspended on a big arm which swings back and forth when driven by powerful motors in a seemingly pendulum motion. Meanwhile the ri
+ng with the seats starts rotating on in its axis as well. At its peak, the arm swings at a maximum speed of 70km/h, riders are upside down 16mt ab
+ove the ground and experience a multitude of thrilling forces. The entire ride is fully computer controlled and consumes about 140KW of power. ",
+        "ridetype" : "Thrill",
+        "is_deleted" : false,
+        "price" : {
+                "value" : 10,
+                "currency" : "USD"
+        },
+        "__v" : 0
+}
+{
+        "_id" : ObjectId("5eb477741efe200b1aa18f12"),
+        "image" : "https://res.cloudinary.com/simplotel/image/upload/x_0,y_113,w_1200,h_674,r_0,c_crop,q_60,fl_progressive/w_960,f_auto,c_fit/hyde
+rabad-park/WBD2-10.3.16-6424_kzbpoh",
+        "title" : "Techno Jump",
+        "description" : "The Techno Jump has 14 spokes arranged around a hub. At the outer end of each spoke is a capsule that can seat three. The
+ spokes are raised and lowered hydraulically, while the whole contraption spins like a carousal.\r\n- Recommended age 12 years and above.\r\n- Not
+ recommended for heart patients or people suffering from high blood pressure.",
+        "ridetype" : "Thrill",
+        "is_deleted" : false,
+        "price" : {
+                "value" : 10,
+                "currency" : "USD"
+        },
+        "__v" : 0
+}
+{
+        "_id" : ObjectId("5eb477b11efe200b1aa18f13"),
+        "image" : "https://res.cloudinary.com/simplotel/image/upload/x_0,y_131,w_1400,h_788,r_0,c_crop,q_60,fl_progressive/w_960,f_auto,c_fit/hyde
+rabad-park/WBD1kids-5733_azyaje",
+        "title" : "Mini Pirate Ship",
+        "description" : "Seat your kids safely harnessed and watch as they gleefully go up and down in the pirate ship. This miniature ship can be
+ enjoyed even by toddlers. ",
+        "ridetype" : "Kids",
+        "is_deleted" : false,
+        "price" : {
+                "value" : 10,
+                "currency" : "USD"
+        },
+        "__v" : 0
+}
+{
+        "_id" : ObjectId("5eb477e61efe200b1aa18f14"),
+        "image" : "https://res.cloudinary.com/simplotel/image/upload/x_0,y_63,w_1200,h_674,r_0,c_crop,q_60,fl_progressive/w_960,f_auto,c_fit/hyder
+abad-park/688A6788_zbmdiu",
+        "title" : "Kiddies Wheel",
+        "description" : "A miniature giant wheel designed to give your children a taste of real thrill without being half as scary. ",
+        "ridetype" : "Kids",
+        "is_deleted" : false,
+        "price" : {
+                "value" : 10,
+                "currency" : "USD"
+        },
+        "__v" : 0
+}
+{
+        "_id" : ObjectId("5eb478171efe200b1aa18f15"),
+        "image" : "https://res.cloudinary.com/simplotel/image/upload/x_0,y_242,w_2500,h_1407,r_0,c_crop,q_60,fl_progressive/w_960,f_auto,c_fit/hyd
+erabad-park/Amusement_Park_in_Hyderabad._Wonderla_Hyderabad,_Facilities_9",
+        "title" : "Coco Cup",
+        "description" : "Coco Cup is a kids ride which resembles a set of cup and saucer. The ride accommodates 16 kids and covers an area of 8 me
+ter diameter.",
+        "ridetype" : "Kids",
+        "is_deleted" : false,
+        "price" : {
+                "value" : 10,
+                "currency" : "USD"
+        },
+        "__v" : 0
+}
+{
+        "_id" : ObjectId("5eb4c3a3d535ee06a0aa5812"),
+        "image" : " https://thedod3.com/wp-content/gallery/2013-orange-county-fair-top-spin/topspin3.jpg",
+        "title" : "Mini Top Spin",
+        "description" : "Mini Top Spin will give your kids a joyous experience. The seating platform of this ride rotates in horizontal
+axis while the seat remains horizontal while riding.",
+        "ridetype" : "Land",
+        "is_deleted" : true,
+        "price" : {
+                "value" : 15,
+                "currency" : "USD"
+        },
+        "__v" : 0
+}

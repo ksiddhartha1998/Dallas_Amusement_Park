@@ -1,0 +1,10 @@
+{
+    "image" : "pink_design_1.png",
+    "title" : "Pink",
+    "description" : "Pink Polyester top and",
+    "is_deleted" : false,
+    "price" : {
+        "value" : 220,
+        "currency" : "USD"
+    }
+}

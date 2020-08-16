@@ -1,0 +1,58 @@
+<% include partials/header %>
+    <div class="container">
+		 <header class="jumbotron bgimg" style="background-repeat: no-repeat;background-size: cover;">
+         <div class="container">
+			 <h2><b>Welcome To Dallas Amusment Park!</b></h2>
+             <p>The loudest, craziest, and the most amazing part of town. This simply is not just any amusement park in Dallas, but a world of breath-taking charm. It’s a place to celebrate the smaller moments and share big wonders. Get on one of the best exhilarating rides, or simply laze by the pool under the bright sun. But whatever you do, here, everybody gets to enjoy a wonderful time together by the end of the day. And that's why we are touted as the best Amazement Park in Texas! </p>
+             <p> 
+				 <% if(user && user.type === "admin"){ %>
+				 <a class="btn btn-primary btn-large" href="/items/new">Add New Ride</a>
+				 <% }%>
+             </p>
+         </div>
+     </header>
+            <div class="row text-center" style="display:flex; flex-wrap: wrap;">
+            <% items.forEach(function(item) { %>
+                <div class="col-md-4 col-sm-6 ">
+                    <div class="thumbnail">
+                            <img src="<%= item.image %>" class="card-img-top">
+                            <div class="card-body">
+                                <a class="caption-title "><p class="card-text"><%= item.title %></p></a>
+                            </div>
+							 <p>
+                       			<a href="/items/<%= item._id %>" class="btn btn-primary">More Info</a>
+                   			</p>
+                    </div>
+                </div>
+            <%}); %>
+        </div>
+        <% if (pages > 0) { %>
+            <ul class="pagination text-center">
+                <% if (current == 1) { %>
+                    <li class="disabled page-item"><a class="page-link" >First</a></li>
+                <% } else { %>
+                    <li class="page-item"><a class="page-link" href="/?page=1">First</a></li>
+                <% } %>
+                <% var i = (Number(current) > 5 ? Number(current) - 4 : 1) %>
+                <% if (i !== 1) { %>
+                    <li class="disabled page-item"><a class="page-link">...</a></li>
+                <% } %>
+                <% for (; i <= (Number(current) + 4) && i <= pages; i++) { %>
+                    <% if (i == current) { %>
+                        <li class="active page-item"><a class="page-link"><%= i %></a></li>
+                    <% } else { %>
+                        <li class="page-item"><a class="page-link" href="/?page=<%= i %>"><%= i %></a></li>
+                    <% } %>
+                    <% if (i == Number(current) + 4 && i < pages) { %>
+                        <li class="disabled page-item"><a class="page-link" >...</a></li>
+                    <% } %>
+                <% } %>
+                <% if (current == pages) { %>
+                    <li class="disabled page-item"><a class="page-link">Last</a></li>
+                <% } else { %>
+                    <li class="page-item"><a class="page-link" href="/?page=<%= pages %>">Last</a></li>
+                <% } %>
+            </ul>
+        <% } %>
+    </div>
+<% include partials/footer %>

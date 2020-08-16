@@ -1,0 +1,63 @@
+body {
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.login-button {
+  margin-right: 10px;
+}
+
+.main-nav {
+  background-color: #2b2b28;
+  
+}
+
+.navbar-brand {
+  margin-right: 5px;
+}
+
+.logo-text {
+  font-family: 'Pacifico', cursive;
+  margin-left: 5px;
+}
+
+.logged-in-text{
+  color: aliceblue;
+}
+
+
+.thumb-container {
+  padding: 10px;
+}
+
+.caption-title {
+  color: black;
+  text-decoration:none;
+  font-weight: bold;
+}
+
+.caption {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 200px;
+}
+
+.pagination {
+  padding: 10px;
+}
+
+.cart-container{
+  padding: 10px;
+}
+
+.admin-details {
+  padding: 10px;
+}
+
+.add-to-cart-group {
+  padding: 10px;
+}

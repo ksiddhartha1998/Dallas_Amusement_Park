@@ -1,0 +1,48 @@
+<% include partials/header %>
+    <div class="container cart-container ">
+        <% if(cart.length > 0) { %>
+            <% cart.forEach(function(product) { %>
+                <div class="card mb-3" style="max-width: 740px;">
+                    <div class="row no-gutters">
+                        <div class="col-md-4">
+                        <img src="<%= product.itemObj.image%>" class="card-img">
+                        </div>
+                        <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title"><%= product.itemObj.title%></h5>
+                            <p class="card-text"><%= product.itemObj.description%></p>
+                            <p class="card-text"><small class="text-muted">$<%= product.itemObj.price.value%>, Qty: <%= product.quantity%></small></p>
+                        </div>
+							<div class="row add-to-cart-group">
+								<form action="/cart/update" method="POST">
+									<div class="form-group">
+										<input class="form-control" placeholder="id" type="hidden" name="_id" value=<%= product.itemObj._id%>>
+										<input class="form-control" placeholder="quantity" type="hidden" name="quantity" value=1>
+									</div>
+									<button class="btn btn-primary" type="submit">Add to Cart</button>
+								</form>
+                        
+                                    <% if(product.quantity) {%>
+                                        <form action="/cart/update" method="POST">
+                                            <div class="form-group">
+                                                <input class="form-control" placeholder="id" type="hidden" name="_id" value=<%= product.itemObj._id%>>
+                                                <input class="form-control" placeholder="quantity" type="hidden" name="quantity" value=-1>
+                                            </div>
+                                            <button class="btn btn-danger" type="submit">Remove 1 item</button>
+                                        </form>
+                                    <% } %>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            <%}); %>
+            <h3>Total Price: $<%= totalSum %></h3>
+            <form action="/cart/checkout" method="POST">
+                <div class="form-group">
+                    <input class="form-control" placeholder="total_price" type="hidden" name="total_price" value=<%= totalSum %>>
+                </div>
+                <button class="btn btn-primary" type="submit">Checkout</button>
+            </form>
+        <% } %>
+    </div>
+<% include partials/footer %>

@@ -1,0 +1,41 @@
+<% include partials/header %>
+
+<div class="container">
+        <h1 style="text-align: center">Create a New Ride</h1>
+        <div style="width: 30%; margin: 40px auto;">
+            <form action="/items" method="POST">
+                <div class="form-group">
+					<input class="form-control" placeholder="Title" type="text" name="title" >
+				</div>
+				<div class="form-group">
+					<input class="form-control" placeholder="Image" type="text" name="image" >
+				</div>
+				<div class="form-group">
+					<textarea class="form-control" placeholder="Description" name="description"></textarea>
+				</div>
+				<div class="form-group">
+					<select class="form-control" name = "ridetype">
+						<option value="" disabled selected>Select Ride Type</option>
+						<option value="Land">Land Rides</option>
+						<option value="Water">Water Rides</option>
+						<option value="Thrill">High-Thrill Rides</option>
+						<option value="Kids">Kids Rides</option>
+					</select>
+                </div>
+				<div class="form-group">
+					<input class="form-control" type="text" placeholder="Price Currency (USD)" name="price_currency" >
+				</div>
+
+				<div class="form-group">
+					<input class="form-control" type="text" placeholder="Price Value" name="price_value" >
+				</div>
+                <div class="form-group">
+                    <button class="btn btn-lg btn-primary btn-block">Submit!</button>
+                </div>
+            </form>
+            <a href="/">Go Back</a>
+        </div>
+</div>
+<% include partials/footer %>
+
+
